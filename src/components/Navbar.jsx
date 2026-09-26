@@ -12,11 +12,11 @@ const navbar = () => {
                         <span className='text-green-500'>OP/&gt;</span>
                     </div>
 
-                    <button className= 'rounded-full py-[1px] px-[4px] flex items-center gap-[3px] bg-green-600 ring-white ring-1 '>
+                    <a href='https://github.com/raunak-collab/passop-mongodb' target='_blank' className= 'rounded-full py-[1px] px-[4px] flex items-center gap-[3px] bg-green-600 ring-white ring-1 '>
                        <img width={30} className=' invert p-1' src="icons/github.svg" alt="github" />
 
                        <span className='p-1 font-bold text-[16px]'>GitHub</span>
-                    </button>
+                    </a>
 
                 </div>
             </nav>
